@@ -58,21 +58,8 @@
 
 <main>
 
-    <section class="todos">
-        <h1>todos</h1>
-        <form on:submit|preventDefault={add}>
-            <input {placeholder} bind:value={todo_text} />
-        </form>
-
-        {#each todo_category as todo (todo.id)}
-            <ToDo bind:todo={todo} {removeTodo}/>
-        {/each}
-
-        <div class="actions" />
-    </section>
-
     <section class="graph">
-        <h2 style="margin-top: 15px">todo pie</h2>
+        <h2 style="margin-top: 15px">title</h2>
         <Graph bind:todo_category={todo_category}/>
     </section>
 
