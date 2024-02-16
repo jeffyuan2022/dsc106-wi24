@@ -6,7 +6,7 @@
 <main>
 
     <section class="graph">
-        <h1 style="margin-top: 1px">World Map</h1>
+        <h1 style="margin-top: 1px">Tracking the Pace of Global Energy Consumption: A Quinquennial Analysis from 2000 to 2020</h1>
         <WorldMap/>
         <div id="tooltip" style="position: absolute;
         text-align: center;

@@ -11,6 +11,7 @@
 		"@sveltejs/adapter-auto": "^1.0.0",
 		"@sveltejs/kit": "^1.0.0",
 		"svelte": "^3.54.0",
+		"svelte-range-slider-pips": "^2.3.1",
 		"vite": "^4.0.0"
 	},
 	"type": "module",
